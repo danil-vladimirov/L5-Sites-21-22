@@ -1,0 +1,181 @@
+body {
+    background-color: #F1F1F1;
+}
+
+.container {
+    width: 100%;
+    font-family: Arial;
+}
+
+.header {
+    display: flex;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    background-color: #ff81a7;
+    font-size: 70px;
+    color: #F1F1F1;
+    padding: 30px;
+}
+
+.artist-album {
+    font-weight: bold;
+}
+
+.header-cover {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-cover img {
+    width: 70%;
+}
+
+.about {
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 34px;
+    gap: 20px;
+}
+
+.about-text-top-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.track-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.music-video {
+    padding: 20px;
+}
+
+.music-video video {
+    width: 100%;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.gallery-cover img {
+    width: 100%;
+}
+
+.gallery-items {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.gallery-single {
+    width: 50%;
+}
+
+.gallery-single img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.music-video {
+    display: flex;
+    font-size: 34px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.music-video-top {
+    width: 25%;
+}
+
+.music-video-mid {
+    width: 50%;
+}
+
+.music-video-bottom {
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-color: coral;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header-title {
+        width: 100%;
+        height: 50%;
+        box-sizing: border-box;
+        font-size: 40px;
+    }
+
+    .header-cover {
+        width: 100%;
+        height: 50%;
+        box-sizing: border-box;
+    }
+
+    .about {
+        display: flex;
+        font-size: 26px;
+        color: cornsilk;
+    }
+
+    .track-title {
+        height: 40vh;
+        color: cornsilk;
+    }
+
+    .gallery-items {
+        flex-direction: column;
+    }
+
+    .gallery-single {
+        width: 100%;
+    }
+
+    .music-video {
+        flex-direction: column;
+        color: cornsilk;
+        display: none;
+    }
+
+    .music-video-top {
+        width: 100%;
+    }
+    
+    .music-video-mid {
+        width: 100%;
+    }
+    
+    .music-video-bottom {
+        width: 100%;
+    }
+
+
+    
+}
